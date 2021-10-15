@@ -1,0 +1,8 @@
+tk_category_dashname,tk_category_name,tk_category_rules
+Any,Any%,- Must output something - Should be at least 10 characters long - No use of repeated characters i.e aaaaaaaaaaaaaaaa, however, aaeessers is acceptable, try not to use more than 3 repeated characters.
+ArchInstall,ArchInstall%,Install SPWN from AUR
+Low,Low%,Do anything to successfully build a program in the record time
+100,100%,Make a program with all builtins
+1000,1000%,Make a program using every builtin and library
+Mastergame,Mastergame%, Make a mastergame-like movement while only using the standard gamescene library
+Meme,Meme%,- The longer the better
