@@ -1,6 +1,5 @@
-# paceboard
-
-![Project logo, a sine wave forming gravestones in the negative space.](assets/img/logo.png)
+# SPWN Speedrunning Leaderboard
+## Generated with paceboard
 
 [Blog post](https://info.pace.rip/blog/2021/6/29/) - [Example site](https://info.pace.rip/blog/2021/6/29/paceboard/)
 
