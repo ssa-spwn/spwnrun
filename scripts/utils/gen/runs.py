@@ -64,7 +64,7 @@ def generate(templatedir, destinationdir, templateFilename):
             util_file.replaceTextInFile(
                 f"{path}/index.html",
                 "lk_run_link",
-                f'<a class="runLink" href="{tk_run_link}">Run recording</a>',
+                f"{tk_run_link}",
             )
 
         # lk_run_duration handler
