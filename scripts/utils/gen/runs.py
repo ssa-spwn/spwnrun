@@ -62,6 +62,8 @@ def generate(templatedir, destinationdir, templateFilename):
             )
         else:
             VIDEOHTML = ''
+            tk_run_link = tk_run_link.replace("https://youtu.be/", "https://www.youtube.com/watch?v=")
+
             if (tk_run_link.find("https://cdn.discordapp.com/attachments/") == 0):
                 VIDEOHTML = '<video width="723" height="409" controls><source src="lk_run_link"></video>'
             elif (tk_run_link.find("https://www.youtube.com/") == 0 or tk_run_link.find("https://youtube.com/") == 0):
