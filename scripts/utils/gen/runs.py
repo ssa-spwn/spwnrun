@@ -61,6 +61,20 @@ def generate(templatedir, destinationdir, templateFilename):
                 f"{path}/index.html", "lk_run_link", "No recording available"
             )
         else:
+            VIDEOHTML = ''
+            if (tk_run_link.find("https://cdn.discordapp.com/attachments/") == 0):
+                VIDEOHTML = '<video width="723" height="409" controls><source src="lk_run_link"></video>'
+            elif (tk_run_link.find("https://www.youtube.com/") == 0 or tk_run_link.find("https://youtube.com/") == 0):
+                VIDEOHTML = '<iframe width="727" height="409" src="' + tk_run_link.replace("watch?v=", "embed/") + '" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+            else:
+                VIDEOHTML = 'This video type is not supported.<br>Please report this if you think this is a mistake.'
+
+            util_file.replaceTextInFile(
+                f"{path}/index.html",
+                "lk_run_video",
+                f"{VIDEOHTML}",
+            )
+            
             util_file.replaceTextInFile(
                 f"{path}/index.html",
                 "lk_run_link",
