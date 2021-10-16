@@ -85,7 +85,7 @@ print(f"You picked - {categoriesNew[categoryInput][displayName]}\n")
 ## End of: Handle input of tk_run_category_dashname ##
 
 # Handle input of tk_run_date, tk_run_description, and tk_run_link
-tk_run_date = input("Date (format - MM/DD/YYYY):  ").replace('"', "")
+tk_run_date = input("Date (format - DD/MM/YYYY):  ").replace('"', "")
 tk_run_description = input("Description:  ").replace('"', "")
 tk_run_link = input("Recording link (format - https://foo.bar):  ")
 
