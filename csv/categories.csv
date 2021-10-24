@@ -5,4 +5,4 @@ Low,Low%,"Build a program successfully in a record time, size of the program doe
 100,100%,Build a program with every builtin
 1000,1000%,Build a program with every builtin and library
 Mastergame,Mastergame%,Make a Mastergame-like movement using only the standart gamescene library
-Meme,Meme%,Make a speedrun as long as possible. You can only cover up to 50% of the screen.
+Meme,Meme%,Make a speedrun as long as possible. You can only cover up to 50% of the screen that is not SPWN. Time starts as soon as 50% of the screen is SPWN. Time ends on either <50% of the screen being SPWN or video ending.
